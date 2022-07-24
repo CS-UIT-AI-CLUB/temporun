@@ -46,12 +46,12 @@ temporun
     ├── 2
     └── ...
     └── ...
-└── valid
+└── val
     └── ...
     └── ...
 ```
 
-* Thư mục **train** và thư mục **valid** cùng cấp, bên trong mỗi thư mục sẽ có **10** thư mục con được đánh số từ **0-9** tương ứng với nhãn của 10 chữ số.
+* Thư mục **train** và thư mục **val** cùng cấp, bên trong mỗi thư mục sẽ có **10** thư mục con được đánh số từ **0-9** tương ứng với nhãn của 10 chữ số.
 * Với mỗi thư mục con tương ứng là tập hợp các file ảnh thuộc nhãn đó.
 * **Lưu ý**: 
 Không có ràng buộc về quy tắc đặt tên file ảnh; Chỉ chấp nhận định các định dạng ảnh bao gồm **jpg** và **png**.
