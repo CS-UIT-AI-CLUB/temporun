@@ -21,14 +21,14 @@ pip install -r requirements.txt
 
 ```
 CUDA_VISIBLE_DEVICES=0 python3 train.py  \
-    --train_path <folder path totrain dataset> \
+    --train_path <folder path to train dataset> \
     --valid_path <folder path to valid dataset> 
 ```
 
 Ví dụ
 
 ```
-CUDA_VISIBLE_DEVICES=0 python3 evalution.py \
+CUDA_VISIBLE_DEVICES=0 python3 train.py \
     --train_path mnist/train \
     --valid_path mnist/valid
 ```
